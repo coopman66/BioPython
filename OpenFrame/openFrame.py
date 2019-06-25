@@ -1,3 +1,14 @@
+# openFrame.py
+'''
+Determine the open frame of a cDNA sequence, starting with a MET AA, and 
+ending with a stop codon.
+
+Author: John Cooper Hopkin
+Git Repo: coopman66/BioPython
+6-25-2019
+Version: 0.1.0
+'''
+
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
