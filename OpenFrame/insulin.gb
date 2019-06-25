@@ -1,0 +1,724 @@
+LOCUS       NM_005544               8743 bp    mRNA    linear   PRI 12-MAY-2019
+DEFINITION  Homo sapiens insulin receptor substrate 1 (IRS1), mRNA.
+ACCESSION   NM_005544
+VERSION     NM_005544.2
+KEYWORDS    RefSeq; RefSeq Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 8743)
+  AUTHORS   Cheng LC, Chen YL, Cheng AN, Lee AY, Cho CY, Huang JS and Chuang
+            SE.
+  TITLE     AXL phosphorylates and up-regulates TNS2 and its implications in
+            IRS-1-associated metabolism in cancer cells
+  JOURNAL   J. Biomed. Sci. 25 (1), 80 (2018)
+   PUBMED   30419905
+  REMARK    GeneRIF: Axl binds to and phosphorylates TNS2 and that
+            Axl/TNS2/IRS-1 cross-talk may potentially play a critical role in
+            glucose metabolism of cancer cells.
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 8743)
+  AUTHORS   Syahrul, Wibowo S, Haryana SM, Astuti I and Nurwidya F.
+  TITLE     The role of insulin receptor substrate 1 gene polymorphism
+            Gly972Arg as a risk factor for ischemic stroke among Indonesian
+            subjects
+  JOURNAL   BMC Res Notes 11 (1), 718 (2018)
+   PUBMED   30305144
+  REMARK    GeneRIF: IRS-1 gene polymorphism Gly972Arg was found a significant
+            risk factor for ischemic stroke in Indonesian subjects.
+            Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 8743)
+  AUTHORS   Kim HG, Woo SU, Kim HY, Son GS, Lee JB, Bae JW, Woo OH, Yang DS,
+            Seo JH and Kim AR.
+  TITLE     The expression of insulin receptor substrate 1 and estrogen
+            receptor as prognostic factor on breast cancer patient
+  JOURNAL   J Cancer Res Ther 14 (Supplement), S494-S498 (2018)
+   PUBMED   29970713
+  REMARK    GeneRIF: ER and IRS-1 subgroups appear to be critical factors for
+            the prediction of breast cancer recurrence. In particular, we
+            suggest that the patients who have ER-positive and IRS-1-negative
+            breast cancer undergo more aggressive treatment because they have
+            poorer prognoses.
+REFERENCE   4  (bases 1 to 8743)
+  AUTHORS   Higaki S, Muramatsu M, Matsuda A, Matsumoto K, Satoh JI, Michikawa
+            M and Niida S.
+  TITLE     Defensive effect of microRNA-200b/c against amyloid-beta
+            peptide-induced toxicity in Alzheimer's disease models
+  JOURNAL   PLoS ONE 13 (5), e0196929 (2018)
+   PUBMED   29738527
+  REMARK    GeneRIF: S6K1-dependent IRS-1pSer suppresses insulin signaling
+            leading to insulin resistance, which is frequently observed in AD
+            brains. Notably, miR-200b/c transfection of SH-SY5Y cells reduced
+            the levels of IRS-1pSer. This finding indicates that miR-200b/c has
+            the potential to alleviate insulin resistance via modulation of
+            S6K1
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 8743)
+  AUTHORS   Xu H, Lee MS, Tsai PY, Adler AS, Curry NL, Challa S, Freinkman E,
+            Hitchcock DS, Copps KD, White MF, Bronson RT, Marcotrigiano M, Wu
+            Y, Clish CB and Kalaany NY.
+  TITLE     Ablation of insulin receptor substrates 1 and 2 suppresses
+            Kras-driven lung tumorigenesis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 115 (16), 4228-4233 (2018)
+   PUBMED   29610318
+  REMARK    GeneRIF: Acute loss of IRS1/IRS2 or inhibition of IR/IGF1R in
+            KRAS-mutant human NSCLC cells decreases the uptake and lowers the
+            intracellular levels of amino acids, while enhancing basal
+            autophagy and sensitivity to autophagy and proteasome inhibitors.
+REFERENCE   6  (bases 1 to 8743)
+  AUTHORS   Kharitonenkov A, Schnekenburger J, Chen Z, Knyazev P, Ali S, Zwick
+            E, White M and Ullrich A.
+  TITLE     Adapter function of protein-tyrosine phosphatase 1D in insulin
+            receptor/insulin receptor substrate-1 interaction
+  JOURNAL   J. Biol. Chem. 270 (49), 29189-29193 (1995)
+   PUBMED   7493946
+REFERENCE   7  (bases 1 to 8743)
+  AUTHORS   Wang L, Hayashi H, Mitani Y, Ishii K, Ohnishi T, Niwa Y, Kido H and
+            Ebina Y.
+  TITLE     Cloning of a cDNA encoding a 190-kDa insulin receptor
+            substrate-1-like protein of simian COS cells
+  JOURNAL   Biochem. Biophys. Res. Commun. 216 (1), 321-328 (1995)
+   PUBMED   7488107
+REFERENCE   8  (bases 1 to 8743)
+  AUTHORS   Hadari YR, Tzahar E, Nadiv O, Rothenberg P, Roberts CT Jr, LeRoith
+            D, Yarden Y and Zick Y.
+  TITLE     Insulin and insulinomimetic agents induce activation of
+            phosphatidylinositol 3'-kinase upon its association with pp185
+            (IRS-1) in intact rat livers
+  JOURNAL   J. Biol. Chem. 267 (25), 17483-17486 (1992)
+   PUBMED   1381348
+  REMARK    Erratum:[J Biol Chem 1993 Apr 25;268(12):9156]
+REFERENCE   9  (bases 1 to 8743)
+  AUTHORS   Nishiyama M and Wands JR.
+  TITLE     Cloning and increased expression of an insulin receptor
+            substrate-1-like gene in human hepatocellular carcinoma
+  JOURNAL   Biochem. Biophys. Res. Commun. 183 (1), 280-285 (1992)
+   PUBMED   1311924
+REFERENCE   10 (bases 1 to 8743)
+  AUTHORS   Sun XJ, Rothenberg P, Kahn CR, Backer JM, Araki E, Wilden PA,
+            Cahill DA, Goldstein BJ and White MF.
+  TITLE     Structure of the insulin receptor substrate IRS-1 defines a unique
+            signal transduction protein
+  JOURNAL   Nature 352 (6330), 73-77 (1991)
+   PUBMED   1648180
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BC053895.1, AC010735.11 and
+            AW469017.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On May 8, 2008 this sequence version replaced NM_005544.1.
+            
+            Summary: This gene encodes a protein which is phosphorylated by
+            insulin receptor tyrosine kinase. Mutations in this gene are
+            associated with type II diabetes and susceptibility to insulin
+            resistance. [provided by RefSeq, Nov 2009].
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data because no single transcript was available
+            for the full length of the gene. The extent of this transcript is
+            supported by transcript alignments and orthologous data.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC053895.1, SRR1803611.103322.1
+                                           [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2159912 [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-5005              BC053895.1         1-5005
+            5006-8563           AC010735.11        11071-14628         c
+            8564-8743           AW469017.1         1-180               c
+FEATURES             Location/Qualifiers
+     source          1..8743
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="2"
+                     /map="2q36.3"
+     gene            1..8743
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /note="insulin receptor substrate 1"
+                     /db_xref="GeneID:3667"
+                     /db_xref="HGNC:HGNC:6125"
+                     /db_xref="MIM:147545"
+     exon            1..3802
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             53..3781
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /note="IRS-1"
+                     /codon_start=1
+                     /product="insulin receptor substrate 1"
+                     /protein_id="NP_005535.1"
+                     /db_xref="CCDS:CCDS2463.1"
+                     /db_xref="GeneID:3667"
+                     /db_xref="HGNC:HGNC:6125"
+                     /db_xref="MIM:147545"
+                     /translation="MASPPESDGFSDVRKVGYLRKPKSMHKRFFVLRAASEAGGPARL
+                     EYYENEKKWRHKSSAPKRSIPLESCFNINKRADSKNKHLVALYTRDEHFAIAADSEAE
+                     QDSWYQALLQLHNRAKGHHDGAAALGAGGGGGSCSGSSGLGEAGEDLSYGDVPPGPAF
+                     KEVWQVILKPKGLGQTKNLIGIYRLCLTSKTISFVKLNSEAAAVVLQLMNIRRCGHSE
+                     NFFFIEVGRSAVTGPGEFWMQVDDSVVAQNMHETILEAMRAMSDEFRPRSKSQSSSNC
+                     SNPISVPLRRHHLNNPPPSQVGLTRRSRTESITATSPASMVGGKPGSFRVRASSDGEG
+                     TMSRPASVDGSPVSPSTNRTHAHRHRGSARLHPPLNHSRSIPMPASRCSPSATSPVSL
+                     SSSSTSGHGSTSDCLFPRRSSASVSGSPSDGGFISSDEYGSSPCDFRSSFRSVTPDSL
+                     GHTPPARGEEELSNYICMGGKGPSTLTAPNGHYILSRGGNGHRCTPGTGLGTSPALAG
+                     DEAASAADLDNRFRKRTHSAGTSPTITHQKTPSQSSVASIEEYTEMMPAYPPGGGSGG
+                     RLPGHRHSAFVPTRSYPEEGLEMHPLERRGGHHRPDSSTLHTDDGYMPMSPGVAPVPS
+                     GRKGSGDYMPMSPKSVSAPQQIINPIRRHPQRVDPNGYMMMSPSGGCSPDIGGGPSSS
+                     SSSSNAVPSGTSYGKLWTNGVGGHHSHVLPHPKPPVESSGGKLLPCTGDYMNMSPVGD
+                     SNTSSPSDCYYGPEDPQHKPVLSYYSLPRSFKHTQRPGEPEEGARHQHLRLSTSSGRL
+                     LYAATADDSSSSTSSDSLGGGYCGARLEPSLPHPHHQVLQPHLPRKVDTAAQTNSRLA
+                     RPTRLSLGDPKASTLPRAREQQQQQQPLLHPPEPKSPGEYVNIEFGSDQSGYLSGPVA
+                     FHSSPSVRCPSQLQPAPREEETGTEEYMKMDLGPGRRAAWQESTGVEMGRLGPAPPGA
+                     ASICRPTRAVPSSRGDYMTMQMSCPRQSYVDTSPAAPVSYADMRTGIAAEEVSLPRAT
+                     MAAASSSSAASASPTGPQGAAELAAHSSLLGGPQGPGGMSAFTRVNLSPNRNQSAKVI
+                     RADPQGCRRRHSSETFSSTPSATRVGNTVPFGAGAAVGGGGGSSSSSEDVKRHSSASF
+                     ENVWLRPGELGGAPKEPAKLCGAAGGLENGLNYIDLDLVKDFKQCPQECTPEPQPPPP
+                     PPPHQPLGSGESSSTRRSSEDLSAYASISFQKQPEDRQ"
+     misc_feature    59..463
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: Mediates interaction with PHIP. {ECO:0000250}"
+     misc_feature    59..61
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P35570};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    347..349
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by CK2.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    860..862
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by RPS6KB1.
+                     {ECO:0000269|PubMed:18952604}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    971..973
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by RPS6KB1.
+                     {ECO:0000269|PubMed:18498745,
+                     ECO:0000269|PubMed:18952604}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    986..988
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by IKKB, MAPK8 and RPS6KB1.
+                     {ECO:0000269|PubMed:18498745,
+                     ECO:0000269|PubMed:20685959}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    1019..1021
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1040..1042
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P35569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1085..1087
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P35569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1094..1096
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:19690332};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1307..1309
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P35569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1388..1390
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphothreonine. {ECO:0000250|UniProtKB:P35570};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1409..1411
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphothreonine. {ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    1445..1456
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 1"
+     misc_feature    1445..1447
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    1631..1633
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by RPS6KB1.
+                     {ECO:0000244|PubMed:24275569,
+                     ECO:0000269|PubMed:18498745}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    1703..1714
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 2"
+     misc_feature    1886..1897
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 3"
+     misc_feature    1886..1888
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    1937..1939
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:17081983,
+                     ECO:0000244|PubMed:24275569}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    1946..1957
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 4"
+     misc_feature    1946..1948
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    1958..1960
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by RPS6KB1.
+                     {ECO:0000244|PubMed:17081983, ECO:0000269|PubMed:18498745,
+                     ECO:0000269|PubMed:18952604}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    2036..2047
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 5"
+     misc_feature    2036..2038
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine. {ECO:0000244|PubMed:15592455};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    2246..2257
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 6"
+     misc_feature    2432..2434
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by AMPK and SIK2.
+                     {ECO:0000269|PubMed:12624099}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    2726..2728
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P35569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    2738..2746
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: GRB2-binding. {ECO:0000250}"
+     misc_feature    2738..2740
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    2873..2884
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 7"
+     misc_feature    2873..2875
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000269|PubMed:20685959}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    3017..3028
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 8"
+     misc_feature    3017..3019
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    3086..3097
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     Region: YXXM motif 9"
+     misc_feature    3350..3352
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P35569};
+                     propagated from UniProtKB/Swiss-Prot (P35568.1);
+                     phosphorylation site"
+     misc_feature    3353..3355
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by RPS6KB1 and PKC/PRKCQ.
+                     {ECO:0000269|PubMed:15364919,
+                     ECO:0000269|PubMed:18952604}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    3587..3589
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     misc_feature    3737..3739
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine, by INSR.
+                     {ECO:0000250|UniProtKB:P35570}; propagated from
+                     UniProtKB/Swiss-Prot (P35568.1); phosphorylation site"
+     STS             1422..1689
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="GDB:456117"
+                     /db_xref="UniSTS:157470"
+     STS             2651..3148
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="PMC86565P4"
+                     /db_xref="UniSTS:273537"
+     STS             2808..3070
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="GDB:456125"
+                     /db_xref="UniSTS:157472"
+     exon            3803..8736
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /inference="alignment:Splign:2.1.0"
+     STS             4017..4122
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="D2S2647"
+                     /db_xref="UniSTS:57707"
+     STS             4034..4877
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="IRS1_V113"
+                     /db_xref="UniSTS:277390"
+     STS             4111..4232
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="SHGC-52849"
+                     /db_xref="UniSTS:10265"
+     STS             4361..4533
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="RH17903"
+                     /db_xref="UniSTS:46669"
+     regulatory      4806..4811
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     polyA_site      4825
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     polyA_site      4831
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     regulatory      4974..4979
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     polyA_site      4994
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     polyA_site      5005
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     STS             8032..8185
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+                     /standard_name="RH48158"
+                     /db_xref="UniSTS:70162"
+     regulatory      8630..8635
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     polyA_site      8653
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     regulatory      8718..8723
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+     polyA_site      8736
+                     /gene="IRS1"
+                     /gene_synonym="HIRS-1"
+ORIGIN      
+        1 ggttgttttt cggagcctcc ctctgctcag cgttggtggt ggcggtggca gcatggcgag
+       61 ccctccggag agcgatggct tctcggacgt gcgcaaggtg ggctacctgc gcaaacccaa
+      121 gagcatgcac aaacgcttct tcgtactgcg cgcggccagc gaggctgggg gcccggcgcg
+      181 cctcgagtac tacgagaacg agaagaagtg gcggcacaag tcgagcgccc ccaaacgctc
+      241 gatccccctt gagagctgct tcaacatcaa caagcgggct gactccaaga acaagcacct
+      301 ggtggctctc tacacccggg acgagcactt tgccatcgcg gcggacagcg aggccgagca
+      361 agacagctgg taccaggctc tcctacagct gcacaaccgt gctaagggcc accacgacgg
+      421 agctgcggcc ctcggggcgg gaggtggtgg gggcagctgc agcggcagct ccggccttgg
+      481 tgaggctggg gaggacttga gctacggtga cgtgccccca ggacccgcat tcaaagaggt
+      541 ctggcaagtg atcctgaagc ccaagggcct gggtcagaca aagaacctga ttggtatcta
+      601 ccgcctttgc ctgaccagca agaccatcag cttcgtgaag ctgaactcgg aggcagcggc
+      661 cgtggtgctg cagctgatga acatcaggcg ctgtggccac tcggaaaact tcttcttcat
+      721 cgaggtgggc cgttctgccg tgacggggcc cggggagttc tggatgcagg tggatgactc
+      781 tgtggtggcc cagaacatgc acgagaccat cctggaggcc atgcgggcca tgagtgatga
+      841 gttccgccct cgcagcaaga gccagtcctc gtccaactgc tctaacccca tcagcgtccc
+      901 cctgcgccgg caccatctca acaatccccc gcccagccag gtggggctga cccgccgatc
+      961 acgcactgag agcatcaccg ccacctcccc ggccagcatg gtgggcggga agccaggctc
+     1021 cttccgtgtc cgcgcctcca gtgacggcga aggcaccatg tcccgcccag cctcggtgga
+     1081 cggcagccct gtgagtccca gcaccaacag aacccacgcc caccggcatc ggggcagcgc
+     1141 ccggctgcac cccccgctca accacagccg ctccatcccc atgccggctt cccgctgctc
+     1201 gccttcggcc accagcccgg tcagtctgtc gtccagtagc accagtggcc atggctccac
+     1261 ctcggattgt ctcttcccac ggcgatctag tgcttcggtg tctggttccc ccagcgatgg
+     1321 cggtttcatc tcctcggatg agtatggctc cagtccctgc gatttccgga gttccttccg
+     1381 cagtgtcact ccggattccc tgggccacac cccaccagcc cgcggtgagg aggagctaag
+     1441 caactatatc tgcatgggtg gcaaggggcc ctccaccctg accgccccca acggtcacta
+     1501 cattttgtct cggggtggca atggccaccg ctgcacccca ggaacaggct tgggcacgag
+     1561 tccagccttg gctggggatg aagcagccag tgctgcagat ctggataatc ggttccgaaa
+     1621 gagaactcac tcggcaggca catcccctac cattacccac cagaagaccc cgtcccagtc
+     1681 ctcagtggct tccattgagg agtacacaga gatgatgcct gcctacccac caggaggtgg
+     1741 cagtggaggc cgactgccgg gacacaggca ctccgccttc gtgcccaccc gctcctaccc
+     1801 agaggagggt ctggaaatgc accccttgga gcgtcggggg gggcaccacc gcccagacag
+     1861 ctccaccctc cacacggatg atggctacat gcccatgtcc ccaggggtgg ccccagtgcc
+     1921 cagtggccga aagggcagtg gagactatat gcccatgagc cccaagagcg tatctgcccc
+     1981 acagcagatc atcaatccca tcagacgcca tccccagaga gtggacccca atggctacat
+     2041 gatgatgtcc cccagcggtg gctgctctcc tgacattgga ggtggcccca gcagcagcag
+     2101 cagcagcagc aacgccgtcc cttccgggac cagctatgga aagctgtgga caaacggggt
+     2161 agggggccac cactctcatg tcttgcctca ccccaaaccc ccagtggaga gcagcggtgg
+     2221 taagctctta ccttgcacag gtgactacat gaacatgtca ccagtggggg actccaacac
+     2281 cagcagcccc tccgactgct actacggccc tgaggacccc cagcacaagc cagtcctctc
+     2341 ctactactca ttgccaagat cctttaagca cacccagcgc cccggggagc cggaggaggg
+     2401 tgcccggcat cagcacctcc gcctttccac tagctctggt cgccttctct atgctgcaac
+     2461 agcagatgat tcttcctctt ccaccagcag cgacagcctg ggtgggggat actgcggggc
+     2521 taggctggag cccagccttc cacatcccca ccatcaggtt ctgcagcccc atctgcctcg
+     2581 aaaggtggac acagctgctc agaccaatag ccgcctggcc cggcccacga ggctgtccct
+     2641 gggggatccc aaggccagca ccttacctcg ggcccgagag cagcagcagc agcagcagcc
+     2701 cttgctgcac cctccagagc ccaagagccc gggggaatat gtcaatattg aatttgggag
+     2761 tgatcagtct ggctacttgt ctggcccggt ggctttccac agctcacctt ctgtcaggtg
+     2821 tccatcccag ctccagccag ctcccagaga ggaagagact ggcactgagg agtacatgaa
+     2881 gatggacctg gggccgggcc ggagggcagc ctggcaggag agcactgggg tcgagatggg
+     2941 cagactgggc cctgcacctc ccggggctgc tagcatttgc aggcctaccc gggcagtgcc
+     3001 cagcagccgg ggtgactaca tgaccatgca gatgagttgt ccccgtcaga gctacgtgga
+     3061 cacctcgcca gctgcccctg taagctatgc tgacatgcga acaggcattg ctgcagagga
+     3121 ggtgagcctg cccagggcca ccatggctgc tgcctcctca tcctcagcag cctctgcttc
+     3181 cccgactggg cctcaagggg cagcagagct ggctgcccac tcgtccctgc tggggggccc
+     3241 acaaggacct gggggcatga gcgccttcac ccgggtgaac ctcagtccta accgcaacca
+     3301 gagtgccaaa gtgatccgtg cagacccaca agggtgccgg cggaggcata gctccgagac
+     3361 tttctcctca acacccagtg ccacccgggt gggcaacaca gtgccctttg gagcgggggc
+     3421 agcagtaggg ggcggtggcg gtagcagcag cagcagcgag gatgtgaaac gccacagctc
+     3481 tgcttccttt gagaatgtgt ggctgaggcc tggggagctt gggggagccc ccaaggagcc
+     3541 agccaaactg tgtggggctg ctgggggttt ggagaatggt cttaactaca tagacctgga
+     3601 tttggtcaag gacttcaaac agtgccctca ggagtgcacc cctgaaccgc agcctccccc
+     3661 acccccaccc cctcatcaac ccctgggcag cggtgagagc agctccaccc gccgctcaag
+     3721 tgaggattta agcgcctatg ccagcatcag tttccagaag cagccagagg accgtcagta
+     3781 gctcaactgg acatcacagc agaatgaaga cctaaatgac ctcagcaaat cctcttctaa
+     3841 ctcatgggta cccagactct aaatatttca tgattcacaa ctaggacctc atatcttcct
+     3901 catcagtaga tggtacgatg catccatttc agtttgttta ctttatccaa tcctcaggat
+     3961 ttcattgact gaactgcacg ttctatattg tgccaagcga aaaaaaaaaa tgcactgtga
+     4021 caccagaata atgagtctgc ataaacttca tcttcaacct taaggactta gctggccaca
+     4081 gtgagctgat gtgcccacca ccgtgtcatg agagaatggg tttactctca atgcattttc
+     4141 aagatacatt tcatctgctg ctgaaactgt gtacgacaaa gcatcattgt aaattatttc
+     4201 atacaaaact gttcacgttg ggtggagaga gtattaaata tttaacatag gttttgattt
+     4261 atatgtgtaa ttttttaaat gaaaatgtaa cttttcttac agcacatctt ttttttggat
+     4321 gtgggatgga ggtatacaat gttctgttgt aaagagtgga gcaaatgctt aaaacaaggc
+     4381 ttaaaagagt agaatagggt atgatccttg ttttaagatt gtaattcaga aaacataata
+     4441 taagaatcat agtgccatag atggttctca attgtatagt tatatttgct gatactatct
+     4501 cttgtcatat aaacctgatg ttgagctgag ttccttataa gaattaatct taattttgta
+     4561 ttttttcctg taagacaata ggccatgtta attaaactga agaaggatat atttggctgg
+     4621 gtgttttcaa atgtcagctt aaaattggta attgaatgga agcaaaatta taagaagagg
+     4681 aaattaaagt cttccattgc atgtattgta aacagaagga gatgggtgat tccttcaatt
+     4741 caaaagctct ctttggaatg aacaatgtgg gcgtttgtaa attctggaaa tgtctttcta
+     4801 ttcataataa actagatact gttgatcttt tcttctgtcc cctcccccca ccacttctgt
+     4861 aagtttcctg ctctattccc accatttttt tctgtgcaca cattatgata tatttcattt
+     4921 cctgcattgt cttgagaaag atggtaaggc aagtgagctg ttgctaacca gaaattaaaa
+     4981 ttccagtaag tgtttttcat tatgaccagg gctatgtgtc accttcccta agactcttac
+     5041 cttatctcat attttttgag aacttccagt gttacattat ttaactgaat gtaattggcc
+     5101 catttgcctt ggtgggtgct ggcctattag tgattagtta acaaaacaca gcgtacagag
+     5161 agcacagaaa agcttaatga cctgctactg aaacacctag ccagcagtga aaatgttaat
+     5221 tcttttcttg tttggaaagt atacacgtct tggaattttt tccacgtgaa aaacaaatgg
+     5281 caatgaatgc atttaaagat attgccgaca gatttttaaa tctttttacc aggaaacttc
+     5341 ctaaaggtta aatgaattaa tgcaaatatc aggctccctc tgagtctgtg ggagcctcta
+     5401 tctctctatc aggaattcgc atccctacta ttgggaggag caacatttta tttctctgaa
+     5461 cgcctaagct ccctgggtgg gagtggggac tacaaggtag gggccagggt tggagggcat
+     5521 tgtagtggct gctgcctcct gatgaactgt ttggggaccc cagctctact caaaagggag
+     5581 cggagataaa tggaacccct cacactgctg aggcccgtgt tactgttcat tcagccaggt
+     5641 ggcatgtacc tcacagactg ttgtgcagtg tccgttattg cagattttaa tcatttgcat
+     5701 gctcatcaat ttctaagata aatagggtct agagtcataa gaatccattg ttttcaagga
+     5761 acttgcagaa ttacatcatt tcctattagt agagagcact acccattttg aaaatctgat
+     5821 atgaaagttg ttttttactc ttgtaaaaaa agactttctt agtcaaacta acttttcata
+     5881 ttttcaagca ttctgattca tactcttgct agtggaagaa gagagcaagc tgccctgctc
+     5941 ttttcctttg aggactgaaa tagttaaaga gaaatcaatg aacaaagtca ctcccaacca
+     6001 ttttcctgta aagctggtta ttatttctca aggaacctac actttgaata tgtgttaccg
+     6061 agatacctct acatgtggaa ttatcaacat gttttgaatg agagcagaaa tgaacagact
+     6121 ggaaaaatct atctcttggt ttctatttct ctgacttttt gagtcgaaaa gcataaaggt
+     6181 agaaattctt atttaagctg cttctagtgg tgcctgagct ggttttgatg gtggcatcaa
+     6241 actaccgatt taaaactgga agttgctggt actcaaacca aaagttcata ctctggcgac
+     6301 acgaagggtt tcctttgagc aacgtcagct gctgagtcct tgtgttcagt tcccattgag
+     6361 gagagttggc ttttatccat ttcaaagcat ttgtaggcca gccaagggct ttcattattg
+     6421 aggcttctag tggcctctgg ttaacctaga agttagtggg tttttcttga tgacaccaac
+     6481 ctctcacagc gtttttcctt agagacttaa gcagagtttt aaaatcctct tttgcgaaaa
+     6541 gaacaaatat gttttatgac tttgatgata tcttcattct gggcaaaaga atggccctag
+     6601 aaccagctag aagtgaagag aatccattaa tgatcaacca cctgagtcaa taatgagaaa
+     6661 tcagtactga tgttacattt gtggctattt cttgctgact ttcaaaggtc aaggactctt
+     6721 gactaatcca gtgactgcaa aaatggatct actaaaagtc atctagccag aagtagagat
+     6781 ttttaacctt tctttccctg gcttttgtct tctagctatc atttaaattt gagacatttg
+     6841 aagtattaag aaacaatttt tctgtatggt aagaaacagt attttacaat actgaagccc
+     6901 tgttttattc aatcttgcat cttgaataca atataccaca aagtcggaaa ctttatattt
+     6961 atttactgca ggtggttaaa aaaagggggg aaagggtttc accatccact gacaacgaga
+     7021 gccatgacaa atagtatcca tgtgcagtct tccaactgct ggtgacaatg accccatatt
+     7081 tggtctcatg ctgcttttgc agagcactct gtaggttagt ccatcacaca aggaggccct
+     7141 gaatccagac actgtgaatt aagaccttgg cggggagaga tgtgaccctt ttggtaggaa
+     7201 tgggaagaag aatgggtgga agccaatatg aaatttcttc tttgcaatga cttgacaggg
+     7261 gagttaatgt tcctaggatg ccatgaatga tgaatgttag ttggaggtaa tgctgtatat
+     7321 gtgtgtgtgt gtgtgtgtgt gtgtttgtgt gtgtgtatat atatgtgtgt gtgtatatat
+     7381 atgtgacatg tgtgtgtctt tgtgtgtgtg tatatatatg tgacgtgtgt gtgggatgtg
+     7441 tgtgtgtata tatagatgaa tatatacaaa tatatagata tatacacaca tatatagata
+     7501 tatatacaca tatatagata tatatacaca catatataga tacacatatg tgtgtgtgtg
+     7561 tatatatata tatatatata tatagatgta taggcttgtg agaaacttga gaggaagaag
+     7621 catgctcttc taggaatgtg aggaaatatg accttgccaa gactaaaaga cctctagact
+     7681 gtgagctcag ttatggagaa caaaaacagc ttcatagtga gtagaacacc gaggataaac
+     7741 actggggcca tgggtccttt ctgaggcagc gccacagaag atctttgtgg tccttccgta
+     7801 gttctgtaag tctgtctcct aagtatgggt agagaatatg tagcctgttg tgtgtctccc
+     7861 actacttgta aacagagcat cacattaggg gcagggagga ggtggaatga tattggaggt
+     7921 gcttaaccct actcgaggaa ttaattatga ataaagagct tataattagc taacatgact
+     7981 agaaaacaca tgacttaggt ggagagttag ctttcttttc tagtttgtgt atgacttgcc
+     8041 atttgtgacg tatacaccaa aagatctggt gttttagact tctgccattc acttggcatt
+     8101 taaatctctc tttgcttatg ctgttaacga gtatgccata ggataggaca aattcagtaa
+     8161 acaggaaaac ttgtccatat ttgcatagac atttgtaggg tttttttttt ctttttcttt
+     8221 ttagaacttc accattggct taagaatgta gttcccaaaa caattttttc ttgcaaagta
+     8281 ctttccttac acctcttggc tacagggtgg gccaaattaa acatatatgt attttcattt
+     8341 aatgtatgtg cagtttggtt tatcatctta agatggtggt gctgccccgg tgctacttca
+     8401 tctgtgtaca caaagaccaa tgcatggtct gtattgctac caaaacattt actgtatata
+     8461 tgtttataac atgtattatg tatatatgta atgggtgcca ggccaggtat atatttttta
+     8521 tttagaagtg tttcactttt ccaagttttc tttatagtgt tatgcttatt ttcaattttt
+     8581 tttttcctga ttctgtctgg tacttagaat tgtagtgtct tcatcatcaa ttaaagaaaa
+     8641 ctgtctaaat gaattcatgg atgtaaatat tagtggtcct taatgtcttt gattgctgga
+     8701 catgaaacaa actgccaatt aaattttgcg gagacaaaaa aaa
+//
+
