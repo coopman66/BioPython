@@ -20,10 +20,12 @@ if __name__ == '__main__':
     #TODO: allow for command line input (or data file)
 
     #cDNA file
-    cdnaFile = str(input("Enter the cDNA filename: "))
+    # cdnaFile = str(input("Enter the cDNA filename: "))
+    cdnaFile = 'insulin.gb'
 
     #vector file
-    vectorFile = str(input("Enter the cDNA filename: "))
+    # vectorFile = str(input("Enter the cDNA filename: "))
+    vectorFile = 'pet32a.gb'
 
     '''i = 1
     for frame in openFrame.findFrames(100, dataFile=cdnaFile):
@@ -33,3 +35,9 @@ if __name__ == '__main__':
         i += 1'''
 
     vector = SeqIO.read(vectorFile, 'genbank')
+    # print(vector.seq)
+
+    for seq_record in SeqIO.parse(vectorFile, 'genbank'):
+        print(seq_record.id)
+        print(repr(seq_record.seq))
+        print(len(seq_record))
