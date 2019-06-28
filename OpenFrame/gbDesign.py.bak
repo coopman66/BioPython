@@ -26,9 +26,13 @@ Version: 0.0.2
 import openFrame
 import sqlite3
 from tkinter import filedialog
-from Bio import SeqIO
+from Bio import SeqIO, Restriction
 from Bio.Seq import Seq
-from Bio.Alphabet import IUPAC
+from Bio.Alphabet import IUPAC, generic_dna
+
+def manual_prom_term():
+    #allow user to define a promoter and terminator
+    pass
 
 def prom_term_select(promoters, terminators):
     # checks that vector has valid promoters or terminators
@@ -142,14 +146,22 @@ def genBankprimerDesign(cdnaFile, vectorFile):
         return
 
     # determine strand that term/prom is on
-    if promoter.location.strand == 1 or promoter.location.strand == 0:
+    '''if promoter.location.strand == 1 or promoter.location.strand == 0:
         print(promoter.location.start)
         print(terminator.location.end)
     elif promoter.location.strand == -1:
         print(terminator.location.start)
-        print(promoter.location.end)
+        print(promoter.location.end)'''
     
     # Slice the vector from the beginning of the terminator to the end of the promoter
+    fullVector = Seq(str(vector.reverse_complement().seq), IUPAC.ambiguous_dna)
+    codingvector = Seq(str(vector[terminator.location.start:promoter.location.end].reverse_complement().seq), IUPAC.ambiguous_dna)
+
+    #using the CommOnly Restriction batch
+    vectorAnalysis = Restriction.Analysis(Restriction.RestrictionBatch([],['N']), codingvector, linear=True)
+    vectorAnalysis.print_as('number')
+    vectorAnalysis.print_that()
+
 
     
     
