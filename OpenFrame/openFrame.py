@@ -3,8 +3,12 @@
 Determine the open frame of a cDNA sequence, starting with a MET AA, and 
 ending with a stop codon.
 
+TODO:
+    *Let User pick open frame and return that as Sequence (?)
+
+
 Author: John Cooper Hopkin
-Git Repo: coopman66/BioPython
+Git Repo: coopman66/BioPython/OpenFrame
 6-25-2019
 Version: 0.1.0
 '''
@@ -26,6 +30,7 @@ def findFrames(NTLength, dataFile='insulin.gb', fileType='genbank'):
         if len(match.group(0)) > NTLength:
             openFrames.append((frame, frame.translate(1, to_stop=True), match.start(), match.end(), len(frame)))
 
+    #TODO
     return list(sorted(openFrames, key=lambda n: n[4], reverse=True))
 
 

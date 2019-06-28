@@ -1,0 +1,3 @@
+TODOS in primerDesign.py
+TODOS in openFrame.py
+Create primer design file for non genbank files
