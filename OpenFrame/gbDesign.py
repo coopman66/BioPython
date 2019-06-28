@@ -1,4 +1,4 @@
-# primerDesign.py
+# gbDesign.py
 '''
 Finds primers for genbank files
 
