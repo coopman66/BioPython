@@ -9,11 +9,10 @@ Finds primers for genbank files
 
 TODO:
     *If user can't find Promoter/Terminator, allow for manual creation
-    *Slice sequence
-    *Find Cloning Sites
-    *Have user pick cloning sites
     *Find Open Frame of cDNA
     *Create Primer
+    *Allow user to select RE vendor
+    *Warn user if RE is in an important location (his tag, lacI operon, etc.)
 
     *Make a pretty printout of Design process
 
@@ -34,7 +33,7 @@ class ExitError(Exception):
     '''
     Simple Exception class for when the whole program need to quit
     '''
-    def __init__(self, value):
+    def __init__(self, value='Exiting...'):
         self.value = value
 
     def __str__(self):
@@ -54,7 +53,11 @@ class GenBankPrimer:
         if self.promoter.location.strand ==-1:
             self.codingvector = Seq(str(self.vector[self.terminator.location.start:self.promoter.location.end].reverse_complement().seq), IUPAC.ambiguous_dna)
         else:
-            self.codingvector = Seq(str(self.vector[self.promoter.location.start:self.terminator.location.end].reverse_complement().seq), IUPAC.ambiguous_dna)
+            self.codingvector = Seq(str(self.vector[self.promoter.location.start:self.terminator.location.end].seq), IUPAC.ambiguous_dna)
+
+        # find restriction sites and allow user to select restriction Enzymes
+        self.startEnzyme, self.endEnzyme = self.restriction_select()
+        
 
 
     def manual_prom(self):
@@ -66,7 +69,59 @@ class GenBankPrimer:
         return 'Dummy'
 
     def restriction_select(self):
-        pass
+        self.rb = Restriction.RestrictionBatch([], ['B'])
+        codingStrandAna = Restriction.Analysis(self.rb, self.codingvector)
+        codingStrandAna.print_as('number')
+        codingStrandAna.print_that(codingStrandAna.with_N_sites(1))
+        print()
+
+        first = False
+        while not first:
+            print("Enzyme names are case sensitive.")
+            firstEnzyme = str(input("Enter the name of the first restriction enzyme you want to use (q to quit): "))
+            if firstEnzyme == 'q' or firstEnzyme == 'Q':
+                raise ExitError
+            for enzyme in self.rb:
+                    if str(enzyme) == firstEnzyme:
+                        tempEnzyme = enzyme
+                        if len(codingStrandAna.full()[tempEnzyme]) == 1:
+                            firstEnzyme = enzyme
+                            first = True
+                            break
+            else: 
+                print('That is not a valid restriction enzyme for this vector. Did you misspell the name?')
+
+        print()
+        second = False
+        while not second:
+            print("Enzyme names are case sensitive.")
+            secondEnzyme = str(input("Enter the name of the second restriction enzyme you want to use (q to quit): "))
+            if secondEnzyme == 'q' or secondEnzyme == 'Q':
+                raise ExitError
+            for enzyme in self.rb:
+                    if str(enzyme) == secondEnzyme:
+                        tempEnzyme = enzyme
+                        if len(codingStrandAna.full()[tempEnzyme]) == 1:
+                            secondEnzyme = enzyme
+                            second = True
+                            break
+            else: 
+                print('That is not a valid restriction enzyme for this vector. Did you misspell the name?')
+
+        while True:
+            print(f'RestrictionEnzymes are: \n\t{str(self.startEnzyme)} at locus: {self.rb.search(self.codingvector)[self.startEnzyme][0]}')
+            print(f'\t{str(self.endEnzyme)} at locus: {self.rb.search(self.codingvector)[self.endEnzyme][0]}')
+            answer = str(input('Does this look correct? (y or n, q to quit): ')).lower()
+            if answer[0] == 'y':
+                return firstEnzyme, secondEnzyme
+            elif answer[0] == 'n':
+                return self.restriction_select()
+            elif answer == 'q':
+                raise ExitError
+            else:
+                print('Invalid Input.')
+
+        return firstEnzyme, secondEnzyme
 
     def prom_select(self, promoters):
         # Default Selection
@@ -241,6 +296,7 @@ class GenBankPrimer:
         promoters = []
         terminators = []
         for feature in self.vector.features:
+            # print(feature.type)
             if feature.type == 'promoter':
                 #add the promoter to a list
                 promoters.append(feature)
@@ -268,4 +324,7 @@ if __name__ == '__main__':
     # vectorFile = str(input("Enter the cDNA filename: "))
     vectorFile = 'pet32a.gb'
 
-    # genBankprimerDesign(cdnaFile, vectorFile)
+    try:
+        GenBankPrimer(vectorFile, cdnaFile)
+    except ExitError:
+        print('Exiting....')
