@@ -8,8 +8,6 @@ Finds primers for genbank files
 4) Determine strand, reverse_comp if neccessary, and slice sequence for primer design
 
 TODO:
-    *If user can't find Promoter/Terminator, allow for manual creation
-    *Find Open Frame of cDNA
     *Create Primer
     *Allow user to select RE vendor
     *Warn user if RE is in an important location (his tag, lacI operon, etc.)
@@ -22,12 +20,12 @@ Git Repo: coopman66/BioPython/OpenFrame
 Version: 0.0.2
 '''
 
-import openFrame
-import sqlite3
-from tkinter import filedialog
+import re
 from Bio import SeqIO, Restriction
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC, generic_dna
+from Bio.SeqFeature import SeqFeature, FeatureLocation
+from Bio.SeqRecord import SeqRecord
 
 class ExitError(Exception):
     '''
@@ -57,16 +55,68 @@ class GenBankPrimer:
 
         # find restriction sites and allow user to select restriction Enzymes
         self.startEnzyme, self.endEnzyme = self.restriction_select()
-        
 
+        #find the open reading frame for the cdna sequence
+        self.cdna_open = self.findFrames()
+
+        # Junk Header
+        # Design Primer
+
+        
+    def findFrames(self, NTLength=100):
+        openFrames = []
+        for match in re.finditer(r'ATG(\w{3})*?(TAA|TAG|TGA)', str(self.cdna.seq), re.IGNORECASE):
+            frame = Seq(match.group(0), IUPAC.unambiguous_dna)
+            if len(match.group(0)) > NTLength:
+                openFrames.append((frame, frame.translate(1, to_stop=True), match.start(), match.end(), len(frame)))
+
+        openFrames = list(sorted(openFrames, key=lambda n: n[4], reverse=True))
+        for frame in openFrames:
+            print(f'{i}:\tcDNA:\t\t{frame[0][:30]}...{frame[0][-15:]}')
+            print(f'\tProtSeq:\t{frame[1][:30]}...{frame[1][-15:]}')
+            print(f'\tStart: {frame[2]+1}\t\tEnd: {frame[3]+1}\t\tLength: {frame[4]}')
+            i += 1
+
+        while True:
+            choice = int(input("Choose which open frame to use (0 to quit): "))
+            if choice > len(openFrames) or choice < 0:
+                print("InvalidInput")
+            elif choice == 0:
+                raise ExitError
+            else:
+                return SeqRecord(Seq(openFrames[choice-1][0], IUPAC.ambiguous_dna), name=f'{self.cdna.id} Open Frame', id=f'{self.cdna.id}OPEN', description=f"Open Frame for {self.cdna.id}")
 
     def manual_prom(self):
-        #allow user to define a promoter and terminator
-        return 'Dummy'
+        #allow user to define a promoter
+        print("Manual Promoter Selection")
+        print("Please use the following file format:\n\t[promoter name]\n\ttype\n\tLocation\n\tStrand (1 or -1")
+        fname = str(input("Enter the filename: "))
+        with open(fname, 'r') as readfile:
+            pro_name = readfile.readline()
+            pro_type = readfile.readline()
+            pro_location_start, pro_location_end = readfile.readline().split(',')
+            pro_strand = readfile.readline()
+
+        prom_feature = SeqFeature(FeatureLocation(pro_location_start,pro_location_end), type=pro_type, strand=pro_strand)
+        prom_feature.qualifiers['label'] = pro_name
+        
+        return prom_feature
 
     def manual_term(self):
         #manually define a terminator
-        return 'Dummy'
+        print("Manual Terminator Selection")
+        print("Please use the following file format:\n\t[terminator name]\n\ttype\n\tLocation(x,y)\n\tStrand (1 or -1")
+        fname = str(input("Enter the filename: "))
+        with open(fname, 'r') as readfile:
+            term_name = readfile.readline()
+            term_type = readfile.readline()
+            term_location_start, term_location_end = readfile.readline().split(',')
+            term_strand = readfile.readline()
+
+        term_feature = SeqFeature(FeatureLocation(term_location_start, term_location_end), type=term_type, strand=term_strand)
+        term_feature.qualifiers['label'] = term_name
+        
+        return term_feature
 
     def restriction_select(self):
         self.rb = Restriction.RestrictionBatch([], ['B'])
@@ -219,7 +269,7 @@ class GenBankPrimer:
                         elif num == 0:
                             answer = input('No terminator found.\nWould you like to define your own? (y or n): ').lower().strip()
                             if answer[0] == 'y':
-                                promoter = self.manual_term()
+                                terminator = self.manual_term()
                             # User Exits
                             elif answer == 'n':
                                 raise ExitError

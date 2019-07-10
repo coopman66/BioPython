@@ -31,7 +31,23 @@ def findFrames(NTLength, dataFile='insulin.gb', fileType='genbank'):
             openFrames.append((frame, frame.translate(1, to_stop=True), match.start(), match.end(), len(frame)))
 
     #TODO
-    return list(sorted(openFrames, key=lambda n: n[4], reverse=True))
+    openFrames = list(sorted(openFrames, key=lambda n: n[4], reverse=True))
+    for frame in openFrames:
+        print(f'{i}:\tcDNA:\t\t{frame[0][:30]}...{frame[0][-15:]}')
+        print(f'\tProtSeq:\t{frame[1][:30]}...{frame[1][-15:]}')
+        print(f'\tStart: {frame[2]+1}\t\tEnd: {frame[3]+1}\t\tLength: {frame[4]}')
+        i += 1
+
+    while True:
+        choice = int(input("Choose which open frame to use (0 to quit): "))
+        if choice > len(openFrames) or choice < 0:
+            print("InvalidInput")
+        elif choice == 0:
+            return 0
+        else:
+            return openFrames[choice-1]
+
+    # return list(sorted(openFrames, key=lambda n: n[4], reverse=True))
 
 
 if __name__ == '__main__':
