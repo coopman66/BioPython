@@ -1,0 +1,180 @@
+LOCUS       NC_002570               1344 bp    DNA     linear   CON 25-AUG-2019
+DEFINITION  Bacillus halodurans C-125 DNA, complete genome.
+ACCESSION   NC_002570 REGION: 2013203..2014546
+VERSION     NC_002570.2
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMD00061093
+            Assembly: GCF_000011145.1
+KEYWORDS    RefSeq.
+SOURCE      Bacillus halodurans C-125
+  ORGANISM  Bacillus halodurans C-125
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1
+  AUTHORS   Takami,H., Nakasone,K., Takaki,Y., Maeno,G., Sasaki,R., Masui,N.,
+            Fuji,F., Hirama,C., Nakamura,Y., Ogasawara,N., Kuhara,S. and
+            Horikoshi,K.
+  TITLE     Complete genome sequence of the alkaliphilic bacterium Bacillus
+            halodurans and genomic sequence comparison with Bacillus subtilis
+  JOURNAL   Nucleic Acids Res. 28 (21), 4317-4331 (2000)
+   PUBMED   11058132
+REFERENCE   2
+  AUTHORS   Nakasone,K., Masui,N., Takaki,Y., Sasaki,R., Maeno,G., Sakiyama,T.,
+            Hirama,C., Fuji,F. and Takami,H.
+  TITLE     Characterization and comparative study of the rrn operons of
+            alkaliphilic Bacillus halodurans C-125
+  JOURNAL   Extremophiles 4 (4), 209-214 (2000)
+   PUBMED   10972189
+REFERENCE   3
+  AUTHORS   Takami,H. and Horikoshi,K.
+  TITLE     Analysis of the genome of an alkaliphilic Bacillus strain from an
+            industrial point of view
+  JOURNAL   Extremophiles 4 (2), 99-108 (2000)
+   PUBMED   10805564
+REFERENCE   4
+  AUTHORS   Takami,H., Takaki,Y., Nakasone,K., Sakiyama,T., Maeno,G.,
+            Sasaki,R., Hirama,C., Fuji,F. and Masui,N.
+  TITLE     Genetic analysis of the chromosome of alkaliphilic Bacillus
+            halodurans C-125
+  JOURNAL   Extremophiles 3 (3), 227-233 (1999)
+   PUBMED   10484179
+REFERENCE   5
+  AUTHORS   Takami,H., Masui,N., Nakasone,K. and Horikoshi,K.
+  TITLE     Replication origin region of the chromosome of alkaliphilic
+            Bacillus halodurans C-125
+  JOURNAL   Biosci. Biotechnol. Biochem. 63 (6), 1134-1137 (1999)
+   PUBMED   10427704
+REFERENCE   6
+  AUTHORS   Takami,H., Takaki,Y., Nakasone,K., Hirama,C., Inoue,A. and
+            Horikoshi,K.
+  TITLE     Sequence analysis of a 32-kb region including the major ribosomal
+            protein gene clusters from alkaliphilic Bacillus sp. strain C-125
+  JOURNAL   Biosci. Biotechnol. Biochem. 63 (2), 452-455 (1999)
+   PUBMED   10192928
+REFERENCE   7
+  AUTHORS   Takami,H., Nakasone,K., Ogasawara,N., Hirama,C., Nakamura,Y.,
+            Masui,N., Fuji,F., Takaki,Y., Inoue,A. and Horikoshi,K.
+  TITLE     Sequencing of three lambda clones from the genome of alkaliphilic
+            Bacillus sp. strain C-125
+  JOURNAL   Extremophiles 3 (1), 29-34 (1999)
+   PUBMED   10086842
+REFERENCE   8
+  AUTHORS   Takami,H., Nakasone,K., Hirama,C., Takaki,Y., Masui,N., Fuji,F.,
+            Nakamura,Y. and Inoue,A.
+  TITLE     An improved physical and genetic map of the genome of alkaliphilic
+            Bacillus sp. C-125
+  JOURNAL   Extremophiles 3 (1), 21-28 (1999)
+   PUBMED   10086841
+REFERENCE   9
+  AUTHORS   Takami,H.
+  TITLE     Genome analysis of facultatively alkalihilic Bacillus halodurans
+            C-125
+  JOURNAL   (in) Horikoshi,K. and Tsujii,K. (Eds.);
+            EXTREMOPHILES IN DEEP-SEA ENVIRONMENTS: 249-284;
+            Springer-Verlag (1999)
+REFERENCE   10
+  AUTHORS   Takami,H. and Horikoshi,K.
+  TITLE     Reidentification of Facultatively Alkaliphilic Bacillus sp. C-125
+            to Bacillus halodurans
+  JOURNAL   Biosci. Biotechnol. Biochem. 63 (5), 943-945 (1999)
+   PUBMED   27385575
+REFERENCE   11 (bases 1 to 1344)
+  AUTHORS   Takami,H. and Takaki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAR-2000) Contact:Hideto Takami Japan Marine Science
+            and Technology Center, Deep-sea Microorganisms Research Group; 2-15
+            Natsushima, Yokosuka, Kanagawa 237-0061, Japan URL
+            :http://www.jamstec.go.jp/jamstec-e/bio/DEEPSTAR/ FResearch.html
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            BA000004.
+            On Jan 12, 2005 this sequence version replaced NC_002570.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 08/25/2019 16:54:48
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 4.9
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,111
+            CDSs (total)                      :: 4,003
+            Genes (coding)                    :: 3,909
+            CDSs (with protein)               :: 3,909
+            Genes (RNA)                       :: 108
+            rRNAs                             :: 9, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 9, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 78
+            ncRNAs                            :: 5
+            Pseudo Genes (total)              :: 94
+            CDSs (without protein)            :: 94
+            Pseudo Genes (ambiguous residues) :: 0 of 94
+            Pseudo Genes (frameshifted)       :: 63 of 94
+            Pseudo Genes (incomplete)         :: 35 of 94
+            Pseudo Genes (internal stop)      :: 17 of 94
+            Pseudo Genes (multiple problems)  :: 17 of 94
+            CRISPR Arrays                     :: 5
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1344
+                     /organism="Bacillus halodurans C-125"
+                     /mol_type="genomic DNA"
+                     /strain="C-125"
+                     /db_xref="taxon:272558"
+                     /note="alkaliphile"
+     gene            1..1344
+                     /locus_tag="AYT26_RS09820"
+                     /old_locus_tag="BH1923"
+                     /old_locus_tag="BH_RS09820"
+     CDS             1..1344
+                     /locus_tag="AYT26_RS09820"
+                     /old_locus_tag="BH1923"
+                     /old_locus_tag="BH_RS09820"
+                     /EC_number="3.2.1.23"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_012959006.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-glucosidase"
+                     /protein_id="WP_010898083.1"
+                     /translation="MSIIQFPKEMKWGVATASYQIEGAINAGGRGASIWDVFAKTPGK
+                     VKNGDNGDVACDSYHRYEEDIEIMKDLGVDMYRFSVAWPRIFPNGTGEVSREGLDYYH
+                     RLVDRLTENGIQPMCTLYHWDLPQALQEKGGWDNRDTIDAFVRYAEVMFKEFGDKINH
+                     WITFNELWCVSFLSNYIGVHAPGNTDLQLATNVAHHLLVAHGKAVQSYRKMGLDGQIG
+                     YAPNVEWNEPFSNQMEDAEACKRGNGWFIEWFMDPVFKGAYPSFLVEWFEKKGITVPI
+                     EAGDMETIQQPIDFLGINYYTGSVARYKENEGLFDLEKVDAGYEKTDIGWNIYPEGFY
+                     KVLYYITEQYGQIPIYITENGSCYNDEPVNGQVKDEGRIRYLSQHLTALKRSMESGVN
+                     IKGYMAWSLLDNFEWAEGYSMRFGIVHVNYRTLERTKKDSFYWYKQMIANQFFEL"
+ORIGIN      
+        1 atgtcgatca ttcaatttcc gaaagaaatg aaatggggag tggcaaccgc ttcctatcaa
+       61 attgaaggag caatcaatgc tggaggtaga ggcgcttcaa tatgggacgt ctttgcgaaa
+      121 actccaggga aagtaaagaa cggtgacaat ggagatgtgg cttgtgatag ctatcatcgc
+      181 tatgaagaag atattgagat aatgaaggat ttaggcgtgg atatgtatcg cttctctgtt
+      241 gcttggccgc gaatttttcc gaatggtaca ggggaggtgt cacgtgaagg attagattat
+      301 taccatcgac ttgttgatcg tttaaccgaa aacgggattc aaccgatgtg tactctctac
+      361 cattgggatt tgccgcaagc attgcaagaa aagggcggct gggataatcg cgacacgatc
+      421 gacgcttttg tccgttatgc tgaggtcatg ttcaaagagt tcggtgataa aattaaccac
+      481 tggattactt ttaatgagct gtggtgcgtt tctttccttt caaattatat cggtgtccat
+      541 gcacctggaa ataccgatct ccagctagcg acaaatgtgg cccaccatct tctagttgct
+      601 catggaaaag cggttcagtc gtatcgaaaa atggggcttg atggacaaat cgggtacgcg
+      661 ccgaatgtag aatggaatga gcctttcagc aatcaaatgg aggatgctga agcttgtaag
+      721 cgggggaatg gttggtttat cgaatggttt atggatccag tcttcaaggg agcctaccca
+      781 tctttcttag tcgaatggtt tgagaagaaa gggattaccg taccgattga ggctggagat
+      841 atggagacaa tccaacaacc aatcgacttt ttaggaatta actattatac gggaagtgtt
+      901 gcccgctaca aggagaacga aggactattt gatctagaaa aagtagatgc aggttatgag
+      961 aaaacggata ttggctggaa catttatcct gaaggctttt acaaagtgtt gtactatata
+     1021 actgagcaat atggacaaat cccgatttat attacggaaa atgggtcttg ttacaatgat
+     1081 gaacctgtga atgggcaagt gaaggatgag gggcgaatcc gctacttgag ccagcatttg
+     1141 acggcactaa agcgtagcat ggagtcaggt gtcaacatta aaggatacat ggcgtggtca
+     1201 ttgctcgata attttgaatg ggccgagggc tacagtatga ggtttggcat cgttcacgtc
+     1261 aattatcgaa cgttggaacg gacgaagaag gatagtttct attggtataa acaaatgatt
+     1321 gccaatcagt tctttgaact ttaa
+//
+

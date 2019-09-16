@@ -71,6 +71,7 @@ class GenBankPrimer:
                 openFrames.append((frame, frame.translate(1, to_stop=True), match.start(), match.end(), len(frame)))
 
         openFrames = list(sorted(openFrames, key=lambda n: n[4], reverse=True))
+        i = 1
         for frame in openFrames:
             print(f'{i}:\tcDNA:\t\t{frame[0][:30]}...{frame[0][-15:]}')
             print(f'\tProtSeq:\t{frame[1][:30]}...{frame[1][-15:]}')
@@ -84,7 +85,7 @@ class GenBankPrimer:
             elif choice == 0:
                 raise ExitError
             else:
-                return SeqRecord(Seq(openFrames[choice-1][0], IUPAC.ambiguous_dna), name=f'{self.cdna.id} Open Frame', id=f'{self.cdna.id}OPEN', description=f"Open Frame for {self.cdna.id}")
+                return SeqRecord(Seq(str(openFrames[choice-1][0]), IUPAC.ambiguous_dna), name=f'{self.cdna.id} Open Frame', id=f'{self.cdna.id}OPEN', description=f"Open Frame for {self.cdna.id}")
 
     def manual_prom(self):
         #allow user to define a promoter
@@ -159,8 +160,8 @@ class GenBankPrimer:
                 print('That is not a valid restriction enzyme for this vector. Did you misspell the name?')
 
         while True:
-            print(f'RestrictionEnzymes are: \n\t{str(self.startEnzyme)} at locus: {self.rb.search(self.codingvector)[self.startEnzyme][0]}')
-            print(f'\t{str(self.endEnzyme)} at locus: {self.rb.search(self.codingvector)[self.endEnzyme][0]}')
+            print(f'RestrictionEnzymes are: \n\t{str(firstEnzyme)} at locus: {self.rb.search(self.codingvector)[firstEnzyme][0]}')
+            print(f'\t{str(secondEnzyme)} at locus: {self.rb.search(self.codingvector)[secondEnzyme][0]}')
             answer = str(input('Does this look correct? (y or n, q to quit): ')).lower()
             if answer[0] == 'y':
                 return firstEnzyme, secondEnzyme
@@ -368,11 +369,11 @@ class GenBankPrimer:
 if __name__ == '__main__':
     #cDNA file
     # cdnaFile = str(input("Enter the cDNA filename: "))
-    cdnaFile = 'insulin.gb'
+    cdnaFile = 'bglA.gb'
 
     #vector file
     # vectorFile = str(input("Enter the cDNA filename: "))
-    vectorFile = 'pet32a.gb'
+    vectorFile = 'pLATE31.gb'
 
     try:
         GenBankPrimer(vectorFile, cdnaFile)
